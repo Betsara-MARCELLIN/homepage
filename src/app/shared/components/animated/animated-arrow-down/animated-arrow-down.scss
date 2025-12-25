@@ -1,0 +1,19 @@
+.reposition {
+  position: relative;
+  top: -15px;
+}
+
+.arrow-movement {
+  animation: slide 1.3s ease-in-out infinite;
+}
+
+@keyframes slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+}

@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+/* Set default font to Roboto, sans-serif */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.17rem;
+  line-height: 1.72rem;
+  font-weight: 500;
+}
